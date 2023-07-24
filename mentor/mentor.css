@@ -1,0 +1,80 @@
+@import url('../nullstyle.css');
+
+body {
+  font-family: Montserrat, sans-serif;
+  background: #202020;
+}
+
+.mentor {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.mentor .about {
+  z-index: 1;
+}
+
+.mentor .about h2 {
+  text-transform: uppercase;
+  position: relative;
+  color: #FFF;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  margin-bottom: 80px;
+}
+
+.mentor .about h2::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  width: 80px;
+  height: 4px;
+  border-radius: 2px;
+  background: #EB601D;
+}
+
+.mentor .about p {
+  color: #C1C1C1;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.mentor .photo {
+  z-index: 0;
+  position: relative;
+  margin-left: -100px;
+  margin-top: -70px;
+  max-width: 100%;
+  border-radius: 50%;
+  background: radial-gradient(#BE521E, #202020 68%);
+}
+
+.mentor .photo {
+  max-width: 100%;
+  /* Makes the image scale down to fit its container */
+  height: auto;
+  /* Maintains the image's aspect ratio */
+  display: block;
+  /* Removes any whitespace below the image */
+}
+
+.mentor .photo::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 137%;
+  height: 96%;
+  background: linear-gradient(to bottom, transparent 50%, #202020 90%), linear-gradient(to right, transparent 65%, #202020 80%);
+}
+
+.mentor .photo img {
+  width: 604px;
+  height: 383px;
+  margin-top: 42px;
+  margin-left: -26px;
+}

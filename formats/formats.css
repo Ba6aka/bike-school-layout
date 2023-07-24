@@ -1,0 +1,43 @@
+@import url('../nullstyle.css');
+
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+.formats {
+  margin: 0 auto;
+  padding: 15px;
+  background: #202020;
+}
+
+.formats ul {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+
+}
+
+.formats h2 {
+  margin-bottom: 10px;
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 0.64px;
+  text-transform: uppercase;
+}
+
+.formats li {
+  flex: 0 1 33.333%;
+  border-radius: 16px;
+  padding: 20px 40px 20px 80px;
+  max-width: 586px;
+  background: #26282B;
+  box-shadow: 2px 2px 4px 0px rgba(18, 18, 18, 0.32), -1px -1px 4px 0px rgba(255, 255, 255, 0.04);
+  color: #FFF;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.formats li span {
+  font-weight: 700;
+}

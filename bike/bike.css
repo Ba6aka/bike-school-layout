@@ -1,0 +1,74 @@
+@import url('../nullstyle.css');
+
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+.bike {
+  padding-top: 110px;
+  background-color: #202020;
+}
+
+.bike-text{
+  position: relative;
+  z-index: 2;
+}
+
+.bike h2 {
+  position: relative;
+  text-align: center;
+  margin-bottom: 60px;
+  color: #FFF;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+
+.bike h2::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  bottom: -30px;
+  left: 47%;
+  width: 80px;
+  height: 4px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  background: #EB601D;
+}
+
+.bike p {
+  color: #C1C1C1;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.accent {
+  color: #C1C1C1;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.sportster {
+  position: relative;
+  max-width: 100%;
+  z-index: 0;
+  background: radial-gradient(#B64F1E, transparent 72%) center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.sportster img {
+  max-width: 711px;
+  margin-top: 25px;
+  display: block;
+  margin: 0 auto;
+  z-index: 1;
+  max-width: 100%; /* Makes the image scale down to fit its container */
+  height: auto; /* Maintains the image's aspect ratio */
+  display: block; /* Removes any whitespace below the image */
+}

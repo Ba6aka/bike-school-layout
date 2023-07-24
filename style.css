@@ -1,0 +1,13 @@
+@import url('./hero/hero.css');
+@import url('./learn/learn.css');
+@import url('./mentor/mentor.css');
+@import url('./1st-form/1st-form.css');
+@import url('./bike/bike.css');
+@import url('./video/video.css');
+@import url('./presents/presents.css');
+@import url('./formats/formats.css');
+@import url('./2nd-form/2nd-form.css');
+
+body{
+  padding: 15px;
+}
