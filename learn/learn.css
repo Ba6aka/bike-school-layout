@@ -72,17 +72,17 @@ body {
 }
 
 .features li:nth-child(1)::before {
-  background-image: url('img/icons/pin-ico.svg');
+  background-image: url('../img/icons/pin-ico.svg');
 }
 
 .features li:nth-child(2)::before {
-  background-image: url('img/icons/trophy-ico.svg');
+  background-image: url('../img/icons/trophy-ico.svg');
 }
 
 .features li:nth-child(3)::before {
-  background-image: url('img/icons/bike-ico.svg');
+  background-image: url('../img/icons/bike-ico.svg');
 }
 
 .features li:nth-child(4)::before {
-  background-image: url('img/icons/headprotect-ico.svg');
+  background-image: url('../img/icons/headprotect-ico.svg');
 }
